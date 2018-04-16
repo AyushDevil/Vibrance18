@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/music"
+        android:title="Music"
+        android:orderInCategory="0"
+        android:icon="@drawable/music"/>
+
+    <item
+        android:id="@+id/dance"
+        android:title="Dance"
+        android:orderInCategory="1"
+        android:icon="@drawable/dancer"/>
+
+    <item
+        android:id="@+id/sports"
+        android:title="Sports"
+        android:orderInCategory="2"
+        android:icon="@drawable/sports"/>
+
+    <item
+        android:id="@+id/others"
+        android:title="All Clubs"
+        android:orderInCategory="3"
+        android:icon="@drawable/others"/>
+
+</menu>

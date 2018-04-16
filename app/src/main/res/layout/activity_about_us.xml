@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aboutbg"
+    tools:context="com.vit.ayush.vibrance18.activity.AboutUsActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/aboutback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/butstyle"
+            android:text=" HOME"
+            android:drawableLeft="@drawable/ic_home_black_24dp"/>
+    </android.support.design.widget.CoordinatorLayout>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/nav_about_us"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/lightorangedark"
+            android:textAlignment="center"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="casual"
+            android:text="Enchanted with the success of Vibrance, National level Cultural and Sports festival of VIT Chennai, it gives us immense pride and pleasure in presenting the 3rd Edition Vibrance'18. Be with us on"
+            android:textAlignment="center"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="@color/lightorange"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="8th , 9th and 10th of February"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/lightorange"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="casual"
+            android:text="for the extravaganza! The carnival will assure variety from Cricket to Chess, Dance battles to Musical fiestas with the primary objective being - 'To explore new talents and impart the qualities to the students'."
+            android:textAlignment="center"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="@color/lightorange"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/logovibrance"
+            android:layout_margin="8dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="casual"
+            android:text="The event enthralls the attendees by presenting EDM, proshow and choreonight on three nights. We, at the Institute promise the audience an atmosphere of immense joy leaving them the thirst for more and more."
+            android:textAlignment="center"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="@color/lightorange"/>
+        <ImageView
+            android:layout_width="300dp"
+            android:scaleType="fitXY"
+            android:layout_height="200dp"
+            android:src="@drawable/ray"
+            android:layout_gravity="center"
+            android:layout_margin="8dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="We have had the best of it!"
+            android:textAlignment="center"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="@color/lightorange"/>
+        <ImageView
+            android:layout_width="300dp"
+            android:scaleType="fitXY"
+            android:layout_height="200dp"
+            android:src="@drawable/benny"
+            android:layout_gravity="center"
+            android:layout_margin="8dp" />
+        <ImageView
+            android:layout_width="300dp"
+            android:scaleType="fitXY"
+            android:layout_height="200dp"
+            android:src="@drawable/vaani"
+            android:layout_gravity="center"
+            android:layout_margin="8dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="casual"
+            android:text="In addition to the home crowd, an enormous number of participants from over 100 engineering colleges and universities in and around Chennai and other parts of the country are expected to take part."
+            android:textAlignment="center"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="@color/lightorange"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="V 3.0"
+            android:textAlignment="center"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="@color/lightorange"/>
+
+    </LinearLayout>
+
+</ScrollView>
+</android.support.constraint.ConstraintLayout>

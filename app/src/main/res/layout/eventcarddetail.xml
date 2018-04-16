@@ -1,0 +1,265 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:id="@+id/containers">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tentlayout"
+        android:layout_gravity="center"
+        android:visibility="gone">
+
+    <pl.droidsonroids.gif.GifTextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        android:background="@drawable/tent1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/upcominglayout"
+        android:layout_marginBottom="27dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_gravity="center"
+        android:visibility="gone">
+
+        <pl.droidsonroids.gif.GifTextView
+            android:layout_width="75dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center"
+            android:background="@drawable/upcoming"
+            android:scaleType="centerInside" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/eventImg"
+        android:src="@drawable/album2"
+        android:scaleType="fitCenter"
+        android:visibility="gone"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@color/lightorange"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/event_details"
+        android:visibility="gone">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1.8"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:id="@+id/eve_name"
+                android:text="EVENT NAME"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.2"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:drawableLeft="@drawable/ic_cancel"
+                android:id="@+id/cancel"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:id="@+id/eve_desc"
+            android:linksClickable="true"
+            android:autoLink="all"
+            android:maxLines="3"
+            android:layout_marginRight="2dp"
+            android:drawableRight="@drawable/ic_info"
+            android:text="EVENT DESC"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:id="@+id/eve_team"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:drawablePadding="8dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:text="#team"/>
+
+            <TextView
+                android:id="@+id/eve_venue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_location_black"
+                android:drawablePadding="8dp"
+                android:gravity="left"
+                android:text="venue"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:id="@+id/eve_category"
+                android:drawableLeft="@drawable/bank"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:drawablePadding="8dp"
+                android:text="Category"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:id="@+id/eve_date"
+                android:drawableLeft="@drawable/ic_event_black_24dp"
+                android:drawablePadding="8dp"
+                android:text="Date"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/eve_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:drawableLeft="@drawable/ic_rupee_indian"
+            android:drawablePadding="8dp"
+            android:text="100"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="#8eaa70"
+                android:textColor="#fff"
+                android:layout_weight="1"
+                android:paddingLeft="15dp"
+                android:drawableLeft="@drawable/ic_note"
+                android:textSize="20dp"
+                android:id="@+id/payLater"
+                android:text="Cash"/>
+
+            <View
+                android:id="@+id/space_view"
+                android:layout_width="20dp"
+                android:layout_height="0dp"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="#c47699"
+                android:textColor="#fff"
+                android:layout_weight="1"
+                android:paddingLeft="15dp"
+                android:drawableLeft="@drawable/ic_credit_card"
+                android:id="@+id/payNow"
+                android:textSize="20dp"
+                android:text="Online"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/success"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:visibility="gone">
+
+        <pl.droidsonroids.gif.GifTextView
+            android:id="@+id/success_gif"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:background="@drawable/successgif"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/waitprocess"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:visibility="gone">
+
+        <pl.droidsonroids.gif.GifTextView
+            android:id="@+id/wait_gif"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:background="@drawable/loader"/>
+
+    </LinearLayout>
+
+</FrameLayout>

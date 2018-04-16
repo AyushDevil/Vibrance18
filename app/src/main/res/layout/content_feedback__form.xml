@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_login_gradients"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.vit.ayush.vibrance18.activity.Feedback_Form"
+    tools:showIn="@layout/activity_feedback__form">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:id="@+id/detailsfeedback">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:padding="5dp"
+            android:src="@drawable/intrologo"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="Please Give Feedback for the events you attended !"
+            android:textColor="@color/card_back"
+            android:textSize="32dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="Give Feedback"
+            android:textSize="14dp"
+            android:textAllCaps="false"
+            android:textColor="@color/card_back"
+            android:id="@+id/givefeed"
+            android:background="@drawable/dialogbutstyle"/>
+
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/feedbackform"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/loadfeedback"
+        android:layout_centerInParent="true"
+        android:visibility="gone">
+    <pl.droidsonroids.gif.GifTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/loader"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_centerInParent="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:text="Please wait..Loading Form !"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

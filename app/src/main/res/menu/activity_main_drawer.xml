@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/nav_home"/>
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="@string/nav_events" />
+        <item
+            android:id="@+id/nav_product"
+            android:icon="@drawable/ic_store_black_24dp"
+            android:title="@string/nav_merchandise" />
+        <item
+            android:id="@+id/nav_proshow"
+            android:icon="@drawable/ic_dj"
+            android:title="@string/nav_proshow" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="@string/nav_profile" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/nav_settings" />
+    </group>
+
+    <item android:title="Know More">
+        <menu>
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_gallery"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="@string/nav_gallery" />
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/ic_business_black_24dp"
+                android:title="@string/nav_about_us" />
+
+        </menu>
+    </item>
+
+</menu>

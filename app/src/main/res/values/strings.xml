@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Vibrance18</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_events">Events</string>
+    <string name="nav_merchandise">Merchandise</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_proshow">Pro-Shows</string>
+    <string name="nav_profile">Profile</string>
+    <string name="buy_now">BUY NOW</string>
+    <string name="buy_later">BUY LATER</string>
+    <string name="event_title">Event Name</string>
+    <string name="rupee">Amount</string>
+    <string name="event_desc">Event description</string>
+    <string name="event_d">Event Date</string>
+    <string name="event_pic">Event Pic</string>
+    <string name="members">capacity</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about_us">About Us</string>
+    <string name="action_add_cart">Add to Cart</string>
+    <string name="action_buy">Buy Now</string>
+    <string name="backdrop_title">EVENTS</string>
+    <string name="backdrop_subtitle">This year\'s top events</string>
+    <string-array name="teessize">
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+        <item>XXL</item>
+    </string-array>
+
+    <string name="tee_title">Tee Name</string>
+
+    <string name="trending">TRENDING EVENTS</string>
+
+    <string name="intro1msg">Enchanted with the success of Vibrance, National level Cultural and Sports festival of VIT Chennai, it gives us immense pride and pleasure in presenting the 3rd Edition Vibrance\'18. Be with us on 8th , 9th and 10th of February
+for the extravaganza !</string>
+    <string name="intro2msg">Always Stay Connected to Vibrance 2k18 \n Never Miss an Event !</string>
+    <string name="intro3msg">Always be Updated With the Fest !</string>
+    <string name="intro4msg">Login and Just Get Started !</string>
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Events</item>
+        <item>Merchendise</item>
+        <item>Pro-Shows</item>
+        <item>Profile</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_gallery_title">Gallery</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="nav_gallery">Gallery</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_forgot_pass">ForgotPassActivity</string>
+    <string name="title_activity_success_">Success_Activity</string>
+    <string name="title_activity_feedback_form">Feedback Form</string>
+    <string name="title_activity_already__registered">Already_Registered</string>
+    <string name="title_activity_duplicate__user">Duplicate_User</string>
+    <string name="title_activity_payment_fail">PaymentFail</string>
+</resources>

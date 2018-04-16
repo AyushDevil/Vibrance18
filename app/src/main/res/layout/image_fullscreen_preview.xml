@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayoutgallery"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/font_card_col">
+
+    <ImageView
+        android:id="@+id/image_preview_gallery"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="fitCenter" />
+
+</RelativeLayout>

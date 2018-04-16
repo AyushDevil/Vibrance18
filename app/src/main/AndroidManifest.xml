@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vit.ayush.vibrance18">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.frab.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <permission
+        android:name="com.frab.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activity.AboutUsActivity" />
+        <activity android:name=".activity.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="launch"
+                    android:host="com.vit.ayush.vibrance18"
+                />
+
+
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".intro.intro_main"
+            android:label="Intro"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.GalleryActivity"
+            android:label="@string/activity_gallery_title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.ProfileActivity"
+            android:label="ProfileActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.ForgotPassActivity"
+            android:label="@string/title_activity_forgot_pass"
+            android:theme="@style/AppTheme" />
+
+        <receiver
+            android:name=".other.NotificationPublisher"
+            android:permission="com.google.android.c2dm.permission.SEND" />
+
+        <activity android:name=".activity.CheckTime" />
+        <activity android:name=".activity.Filter" />
+        <activity android:name=".activity.Payment_Activity" />
+        <activity
+            android:name=".activity.Feedback_Form"
+            android:label="@string/title_activity_feedback_form"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>

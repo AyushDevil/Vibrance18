@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/intro4"
+    >
+
+
+    <TextView
+        android:id="@+id/fragtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="top|center"
+        android:gravity="center"
+        android:text="@string/event_title"
+        android:fontFamily="@font/roboto_medium"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/computer"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/fragtitle"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/ic_alert" />
+
+    <TextView
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom|center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textColor="@color/font_card_col"
+        android:text="@string/intro3msg"
+        android:textSize="18dp" />
+
+
+</RelativeLayout>
